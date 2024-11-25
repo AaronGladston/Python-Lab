@@ -10,6 +10,9 @@ for i in range(n):
     values.append(input())
 dict={key[i]:values[i] for i in range(n)}
 print(dict)
+key.sort()
+for i in range(n):
+    
 
     
 

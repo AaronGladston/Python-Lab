@@ -19,7 +19,10 @@ for i in range(n2):
     values2.append(input())
 dict2={keys2[i]:values2[i] for i in range(n2)}
 print("The second dictionary is:",dict2)
-
+dict3={}
+dict3.update(dict1)
+dict3.update(dict2)
+print("The merged dictionary is:\n",dict3)
 
 
     

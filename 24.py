@@ -6,15 +6,16 @@ class Bank_Account:
         self.balance = balance
 
     def getdeposit(self,depo_amount):
-        return self.balance + self.amount
+        return self.balance = self.balance + self.amount
 
     def getwithdraw(self,with_amount):
-        return self.balance - self.amount
+        return self.balance = self.balance - self.amount
 
+    def getbalance(self):
+        return self.balance        
+
+account1=(acc_no,name,acc_type,balance)
 acc_no = int(input("Enter the account the account number:"))
 name = input("Enter the name of the account holder:")
 acc_type = input("Enter the account type:")
 balance = int(input("Enter the balance of the account:"))
-depo_amount = int(input("Enter the amount to be deposited:"))
-with_amount = int(input("Enter the amount to be withdrawn:"))
-

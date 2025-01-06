@@ -1,5 +1,5 @@
 import csv
-with open("readcsv.csv","r") as csvfile:
+with open("33_file.csv","r") as csvfile:
     reader = csv.reader(csvfile)
     n = int(input("Enter the specific columns of your choice: "))
     col = []
